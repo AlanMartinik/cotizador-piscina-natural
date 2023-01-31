@@ -1,16 +1,3 @@
-//COTIZADOR SEGUN LA CANTIDAD DE LITROS DE LA PILETA SE MOSTRARA EL EQUIPO IDEAL
-//Se informara la sal a comprar
-//Se informara el precio del equipo (constante en dolares x tipo de cambio de la fecha)
-//Descuento si es usuario 
-//Precio en cuotas (segun precio y con sus intereses correspondientes)
-//Vida util del equipo solo usando en verano
-//Vida util del equipo usandolo todo el año
-// Cantidad de horas prendido en verano y en invierno
-//Cantidad de cloro que evita a usar
-//Cantidad de horas que debe filtrarse cualquier pileta
-
-
-
 alert("Bienvenido al Cotizador On-Line de Piscina Natural");
 alert("Ingrese los siguientes Datos");
 
@@ -25,7 +12,6 @@ let telefono = prompt("Ingrese su Telefono: ");
 
 while (ingreso == "AVANZAR"){ 
     let cotizacion = prompt ("Ingrese COTIZADOR para iniciar o SALIR para finalizar");
-
 
 if(cotizacion == "COTIZADOR"){
     let largo = parseFloat(prompt ("Ingrese el LARGO de su pileta"));
