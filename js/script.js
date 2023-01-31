@@ -7,7 +7,7 @@ let telefono = prompt("Ingrese su Telefono: ");
     console.log (nombre);
     console.log (email);
     console.log (telefono);
-    ingreso = prompt("ingrese AVANZAR para continuar");
+let ingreso = prompt("ingrese AVANZAR para continuar");
     console.log("Bienvenido: " , nombre);
 
 while (ingreso == "AVANZAR"){ 
