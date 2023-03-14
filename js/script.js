@@ -62,12 +62,12 @@ function equipo_ideal (litros_cliente){
 }
 
 
-alert("Bienvenido al Cotizador On-Line de Piscina Natural");
+/* alert("Bienvenido al Cotizador On-Line de Piscina Natural");
 alert("Ingrese los siguientes Datos");
-
-let nombre = prompt("Ingrese su nombre: ");
+ */
+/* let nombre = prompt("Ingrese su nombre: ");
 let email = prompt("Ingrese su email: ");
-let telefono = prompt("Ingrese su Telefono: ");
+let telefono = prompt("Ingrese su Telefono: "); */
     console.log (nombre);
     console.log (email);
     console.log (telefono);
@@ -114,13 +114,13 @@ if (opcion == "SI"){
     console.log("tenemos stock: " , resultado_busqueda.nombre);
     //CHEQUEO SI TENGO STOCK DEL PRODUCTO
     let unidades = prompt ("Cuantas Unidades queres? stock: ", resultado_busqueda.stock);
-    if (resultado_busqueda.venta_stock(unidades)){
+    while (resultado_busqueda.venta_stock(unidades)){
                     console.log(`Compro  ${unidades} de ${resultado_busqueda.nombre}`);
     }
-    else{
+    
         console.log("No tenemos stock del producto: ", resultado_busqueda.nombre);
         console.log("stock disponible: ", resultado_busqueda.stock);
-        } 
+        
 }
     else{
     console.log("No tenemos stock del producto: ", resultado_busqueda.nombre);
@@ -138,6 +138,7 @@ if (opcion == "SI"){
     
     
     //Desarrollar el cotizador luego del equipo ideal para cotizar en cuotas + interes + iva (dolares)
+
 
 
 

@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    padding: 0%; }
+header{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_contacto h1{
+    text-align: center;
+}
+.form_contacto h4{
+    text-align: center;
+    padding: 1rem;
+}
+.header img{
+    width: 10rem;
+}
+.form_contacto{
+    padding-top: 5rem;
+}
+
+
+.btn_enviar_contacto{
+    margin-top: 1rem;
+    margin-left: 15%;
+}
+.btn_avanzar{
+    margin-top: 1rem;
+}
+
+.img_contacto{
+    background-image: url(../img/equipos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.formulario_equipo{
+    text-align: center;
+}
+
+.form_equipo{
+    display: none;
+}
+
+.btn_info{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 36%;
+
+}

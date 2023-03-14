@@ -4,12 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cotizador Piscina Natural</title>
+    <!-- boostrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<!-- CSS MIO -->
+<link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
+    <header class="header">
+        <img src="./img/cropped-cropped-Recurso-3.webp" alt="">
+        
+    </header>
+    <div class="container form_contacto">
+        <h1>BIENVENIDO AL COTIZADOR ONLINE</h1> 
+        <h4>¡Antes de empezar completa tus datos!</h4>
+            <div class="row">
+                <div class="formulario_contacto row col-md-6">
+                    <div class="col-md-6">
+                    <label class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control nombreyapellido" id="" placeholder="Nombre y Apellido">
+                    </div>
+                    <div class="col-md-6">
+                    <label class="form-label">Telefono</label>
+                    <input type="text" class="form-control telefono" placeholder="Telefono" id="">
+                    </div>
+                    <div class="col-md-12">
+                    <label class="form-label">E-Mail</label>
+                    <input type="text" class="form-control mail" placeholder="E-Mail" id="">
+                    </div>
+                <input class="btn btn-primary btn_enviar_contacto col-md-3" type="enviar" value="Enviar">
+                <div class="col-md-2"></div>
+                <input class="btn btn-primary btn_avanzar col-md-3" type="enviar" value="Avanzar">
 
-<script src="js/script.js"></script>
+                </div>
+                <div class="img_contacto col-md-6">
+                </div>
+        </div>
+    </div>
+    <div class="container form_equipo">
+        <div class="row">
+            <div class="formulario_equipo row">
+                <h3 >Ingrese los siguientes datos de su pileta</h3>
+                <div class="col-md-6">
+                    <label class="form-label">Largo (Mts)</label>
+                    <input type="text" class="form-control largo" id="" placeholder="(hasta 2 decimales)">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Ancho (Mts)</label>
+                    <input type="text" class="form-control ancho" id="" placeholder="(hasta 2 decimales)">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label"> Profundida min (Mts)</label>
+                    <input type="text" class="form-control prof_min" id="" placeholder="(hasta 2 decimales)">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Profundidad Maxima (Mts)</label>
+                    <input type="text" class="form-control prof_max" id="" placeholder="(hasta 2 decimales)">
+                </div>
+                <input class="btn btn-primary btn_info col-md-3" type="enviar" value="Descubri tu Equipo">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
 
+        </div>
+    </div>
 
+<script src="js/script2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
