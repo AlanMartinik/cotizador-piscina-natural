@@ -25,7 +25,29 @@ function equipo_ideal(){
     let prof_prom = (prof_max + prof_min) /2  ;
 
     let litros_cliente = (largo * ancho * prof_prom) *1000 ;
-    console.log(litros_cliente);
+    
+    let info_equipo = document.getElementById("equipo")
+    info_equipo.innerHTML = "";
+
+    if (litros_cliente <= 45000){
+        let equipo = document.createElement("p")
+        equipo.innerHTML = `<p>El submarino es tu equipo</p>`
+        info_equipo.append(equipo)
+    }
+    else if ((litros_cliente > 45000) && (litros_cliente <= 60000)){
+        let equipo = document.createElement("p")
+        equipo.innerHTML = `<p>El clorador es tu equipo</p>`
+        info_equipo.append(equipo)
+    }
+    else if (litros_cliente > 6000){
+        let equipo = document.createElement("p")
+        equipo.innerHTML = `<p>El submarino es tu equipo</p>`
+        info_equipo.append(equipo)
+    }
+
+
+
+
 }
 
 
